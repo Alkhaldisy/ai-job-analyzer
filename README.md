@@ -18,7 +18,7 @@ Eine kleine Python-Anwendung, die unstrukturierte Stellenanzeigen mithilfe von K
 
 
 
-!\[AI Job Application Analyzer](assets/app-demo.png)
+![AI Job Application Analyzer](assets/app-demo.png)
 
 
 
@@ -26,7 +26,7 @@ Eine kleine Python-Anwendung, die unstrukturierte Stellenanzeigen mithilfe von K
 
 
 
-!\[Excel-Historie und Bewerbungs-Tracking](assets/app-demo2.png)
+![Excel-Historie und Bewerbungs-Tracking](assets/app-demo2.png)
 
 
 
@@ -34,7 +34,7 @@ Eine kleine Python-Anwendung, die unstrukturierte Stellenanzeigen mithilfe von K
 
 
 
-!\[Excel-Historie Übersicht](assets/excel-demo.png)
+![Excel-Historie Übersicht](assets/excel-demo.png)
 
 
 
@@ -42,7 +42,7 @@ Eine kleine Python-Anwendung, die unstrukturierte Stellenanzeigen mithilfe von K
 
 
 
-!\[Excel-Historie Job-Details](assets/excel-demo2.png)
+![Excel-Historie Job-Details](assets/excel-demo2.png)
 
 
 
@@ -58,19 +58,19 @@ Stellenanzeigen enthalten viele relevante Informationen in unstrukturierter Form
 
 
 
-\* Aufgaben
+* Aufgaben
 
-\* Muss- und Kann-Anforderungen
+* Muss- und Kann-Anforderungen
 
-\* technische Skills
+* technische Skills
 
-\* Soft Skills
+* Soft Skills
 
-\* Arbeitsmodell
+* Arbeitsmodell
 
-\* Arbeitszeit
+* Arbeitszeit
 
-\* Sprachkenntnisse
+* Sprachkenntnisse
 
 
 
@@ -94,23 +94,23 @@ Der Workflow:
 
 Stellenanzeige
 
-&#x20;     ↓
+      ↓
 
 KI-Analyse
 
-&#x20;     ↓
+      ↓
 
 strukturierte Daten
 
-&#x20;     ↓
+      ↓
 
 Kurzüberblick
 
-&#x20;     ↓
+      ↓
 
 Detaillierte Analyse
 
-&#x20;     ↓
+      ↓
 
 Excel-Historie + Bewerbungs-Tracking
 
@@ -126,13 +126,13 @@ Die Ergebnisse werden anschließend:
 
 
 
-1\. kompakt in der Weboberfläche dargestellt,
+1. kompakt in der Weboberfläche dargestellt,
 
-2\. bei Bedarf vollständig angezeigt,
+2. bei Bedarf vollständig angezeigt,
 
-3\. als JSON exportiert,
+3. als JSON exportiert,
 
-4\. zusammen mit Bewerbungsinformationen in einer Excel-Historie gespeichert.
+4. zusammen mit Bewerbungsinformationen in einer Excel-Historie gespeichert.
 
 
 
@@ -148,29 +148,29 @@ Die Anwendung extrahiert unter anderem:
 
 
 
-\* Unternehmen
+* Unternehmen
 
-\* Position
+* Position
 
-\* Standort
+* Standort
 
-\* Aufgaben
+* Aufgaben
 
-\* Muss-Anforderungen
+* Muss-Anforderungen
 
-\* Nice-to-have-Anforderungen
+* Nice-to-have-Anforderungen
 
-\* technische Skills
+* technische Skills
 
-\* Soft Skills
+* Soft Skills
 
-\* Sprachen
+* Sprachen
 
-\* Arbeitsmodell
+* Arbeitsmodell
 
-\* Arbeitszeit
+* Arbeitszeit
 
-\* fehlende oder unklare Informationen
+* fehlende oder unklare Informationen
 
 
 
@@ -182,19 +182,19 @@ Damit die KI-Ausgabe nicht genauso umfangreich wie die ursprüngliche Stellenanz
 
 
 
-\* Unternehmen
+* Unternehmen
 
-\* Position
+* Position
 
-\* Standort
+* Standort
 
-\* wichtigste Muss-Anforderungen
+* wichtigste Muss-Anforderungen
 
-\* wichtigste Technologien
+* wichtigste Technologien
 
-\* Arbeitsmodell
+* Arbeitsmodell
 
-\* Arbeitszeit
+* Arbeitszeit
 
 
 
@@ -224,7 +224,7 @@ Analysen können in einer lokalen Excel-Datei gespeichert werden:
 
 ```text
 
-job\_analysis\_history.xlsx
+job_analysis_history.xlsx
 
 ```
 
@@ -246,31 +246,31 @@ Enthalten sind unter anderem:
 
 
 
-\* Analyse-ID
+* Analyse-ID
 
-\* Analyse-Datum
+* Analyse-Datum
 
-\* Unternehmen
+* Unternehmen
 
-\* Position
+* Position
 
-\* Standort
+* Standort
 
-\* wichtigste Anforderungen
+* wichtigste Anforderungen
 
-\* Technologien
+* Technologien
 
-\* Arbeitsmodell
+* Arbeitsmodell
 
-\* Arbeitszeit
+* Arbeitszeit
 
-\* Bewerbungsstatus
+* Bewerbungsstatus
 
-\* Bewerbungsdatum
+* Bewerbungsdatum
 
-\* Stellenlink
+* Stellenlink
 
-\* Notizen
+* Notizen
 
 
 
@@ -338,11 +338,11 @@ Zusätzlich können gespeichert werden:
 
 
 
-\* Bewerbungsdatum
+* Bewerbungsdatum
 
-\* Stellenlink
+* Stellenlink
 
-\* persönliche Notizen
+* persönliche Notizen
 
 
 
@@ -358,27 +358,27 @@ Damit dient die Excel-Datei nicht nur als Export, sondern als einfache Bewerbung
 
 Stellenanzeige
 
-&#x20;     ↓
+      ↓
 
 Streamlit UI
 
-&#x20;     ↓
+      ↓
 
-analyze\_job()
+analyze_job()
 
-&#x20;     ↓
+      ↓
 
 OpenAI API
 
-&#x20;     ↓
+      ↓
 
 JSON
 
-&#x20;     ↓
+      ↓
 
 Python Dictionary
 
-&#x20;     ↓
+      ↓
 
 ┌─────────────────────────────┐
 
@@ -410,7 +410,7 @@ ai-job-analyzer/
 
 ├── analyzer.py
 
-├── excel\_manager.py
+├── excel_manager.py
 
 ├── requirements.txt
 
@@ -424,7 +424,7 @@ ai-job-analyzer/
 
 └── examples/
 
-&#x20;   └── sample\_job.txt
+    └── sample_job.txt
 
 ```
 
@@ -446,17 +446,17 @@ Enthält die KI-Logik:
 
 
 
-\* Prompt
+* Prompt
 
-\* OpenAI-API-Aufruf
+* OpenAI-API-Aufruf
 
-\* JSON-Verarbeitung
+* JSON-Verarbeitung
 
-\* Fehlerbehandlung
+* Fehlerbehandlung
 
 
 
-### `excel\_manager.py`
+### `excel_manager.py`
 
 
 
@@ -464,21 +464,21 @@ Verantwortlich für:
 
 
 
-\* Erstellen der Excel-Historie
+* Erstellen der Excel-Historie
 
-\* automatische Analyse-IDs
+* automatische Analyse-IDs
 
-\* Analyse-Datum
+* Analyse-Datum
 
-\* Übersicht
+* Übersicht
 
-\* Job-Details
+* Job-Details
 
-\* Status-Dropdown
+* Status-Dropdown
 
-\* interne Excel-Hyperlinks
+* interne Excel-Hyperlinks
 
-\* Stellenlinks
+* Stellenlinks
 
 
 
@@ -486,19 +486,19 @@ Verantwortlich für:
 
 
 
-\* Python
+* Python
 
-\* Streamlit
+* Streamlit
 
-\* OpenAI API
+* OpenAI API
 
-\* JSON
+* JSON
 
-\* openpyxl
+* openpyxl
 
-\* python-dotenv
+* python-dotenv
 
-\* Git / GitHub
+* Git / GitHub
 
 
 
@@ -538,7 +538,7 @@ Unter Windows aktivieren:
 
 ```powershell
 
-.\\.venv\\Scripts\\Activate.ps1
+.\.venv\Scripts\Activate.ps1
 
 ```
 
@@ -578,7 +578,7 @@ zeigt die benötigte Umgebungsvariable:
 
 ```text
 
-OPENAI\_API\_KEY=your\_api\_key\_here
+OPENAI_API_KEY=your_api_key_here
 
 ```
 
@@ -590,7 +590,7 @@ Eine lokale Datei `.env` erstellen und dort den eigenen API-Key eintragen:
 
 ```text
 
-OPENAI\_API\_KEY=...
+OPENAI_API_KEY=...
 
 ```
 
@@ -620,21 +620,21 @@ Anschließend öffnet sich die Anwendung lokal im Browser.
 
 
 
-1\. Stellenanzeige in das Textfeld einfügen.
+1. Stellenanzeige in das Textfeld einfügen.
 
-2\. `Stellenanzeige analysieren` auswählen.
+2. `Stellenanzeige analysieren` auswählen.
 
-3\. Kurzüberblick prüfen.
+3. Kurzüberblick prüfen.
 
-4\. Bei Bedarf die detaillierte Analyse öffnen.
+4. Bei Bedarf die detaillierte Analyse öffnen.
 
-5\. Optional das Ergebnis als JSON herunterladen.
+5. Optional das Ergebnis als JSON herunterladen.
 
-6\. Bewerbungsstatus, Link und Notizen ergänzen.
+6. Bewerbungsstatus, Link und Notizen ergänzen.
 
-7\. `Analyse in Excel speichern` auswählen.
+7. `Analyse in Excel speichern` auswählen.
 
-8\. Die Historie kann anschließend direkt aus der lokalen Anwendung geöffnet werden.
+8. Die Historie kann anschließend direkt aus der lokalen Anwendung geöffnet werden.
 
 
 
@@ -652,9 +652,9 @@ Folgende Dateien werden bewusst nicht in Git gespeichert:
 
 .venv/
 
-\_\_pycache\_\_/
+__pycache__/
 
-job\_analysis\_history.xlsx
+job_analysis_history.xlsx
 
 ```
 
@@ -676,15 +676,15 @@ Aktuelle Einschränkungen:
 
 
 
-\* KI-Ergebnisse sollten bei wichtigen Entscheidungen manuell geprüft werden.
+* KI-Ergebnisse sollten bei wichtigen Entscheidungen manuell geprüft werden.
 
-\* Stellenanzeigen werden aktuell als Text eingefügt und nicht automatisch über eine URL geladen.
+* Stellenanzeigen werden aktuell als Text eingefügt und nicht automatisch über eine URL geladen.
 
-\* Die Excel-Historie ist für lokale Einzelbenutzung ausgelegt.
+* Die Excel-Historie ist für lokale Einzelbenutzung ausgelegt.
 
-\* Das direkte Öffnen der Excel-Datei ist aktuell für die lokale Windows-Version vorgesehen.
+* Das direkte Öffnen der Excel-Datei ist aktuell für die lokale Windows-Version vorgesehen.
 
-\* Eine automatische Duplikaterkennung für bereits gespeicherte Stellen ist noch nicht implementiert.
+* Eine automatische Duplikaterkennung für bereits gespeicherte Stellen ist noch nicht implementiert.
 
 
 
@@ -700,19 +700,19 @@ Mögliche nächste Schritte:
 
 
 
-\* Übergabe der JSON-Daten an einen n8n-Workflow
+* Übergabe der JSON-Daten an einen n8n-Workflow
 
-\* Speicherung der Ergebnisse in Airtable
+* Speicherung der Ergebnisse in Airtable
 
-\* automatische Verarbeitung von Stellenlinks
+* automatische Verarbeitung von Stellenlinks
 
-\* Vergleich einer Stellenanzeige mit einem Bewerberprofil oder Lebenslauf
+* Vergleich einer Stellenanzeige mit einem Bewerberprofil oder Lebenslauf
 
-\* Skill-Gap-Analyse
+* Skill-Gap-Analyse
 
-\* Vergleich mehrerer analysierter Stellen
+* Vergleich mehrerer analysierter Stellen
 
-\* zentrale Datenbank anstelle einer lokalen Excel-Datei
+* zentrale Datenbank anstelle einer lokalen Excel-Datei
 
 
 
@@ -724,19 +724,19 @@ Ein möglicher späterer Workflow könnte beispielsweise so aussehen:
 
 Stellenanzeige
 
-&#x20;     ↓
+      ↓
 
 KI-Analyse
 
-&#x20;     ↓
+      ↓
 
 strukturierte JSON-Daten
 
-&#x20;     ↓
+      ↓
 
 n8n
 
-&#x20;     ↓
+      ↓
 
 Airtable / Reporting / weitere Prozesse
 
@@ -764,19 +764,22 @@ Der Schwerpunkt liegt damit auf:
 
 Prozess verstehen
 
-&#x20;     ↓
+      ↓
 
 strukturieren
 
-&#x20;     ↓
+      ↓
 
 KI einsetzen
 
-&#x20;     ↓
+      ↓
 
 Ergebnisse weiterverwenden
 
 ```
+
+
+
 
 
 
