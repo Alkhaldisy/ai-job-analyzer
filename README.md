@@ -1,4 +1,4 @@
-\# AI Job Application Analyzer
+﻿# AI Job Application Analyzer
 
 
 
@@ -10,11 +10,11 @@ Eine kleine Python-Anwendung, die unstrukturierte Stellenanzeigen mithilfe von K
 
 
 
-\## Demo
+## Demo
 
 
 
-\### KI-Analyse und Kurzüberblick
+### KI-Analyse und Kurzüberblick
 
 
 
@@ -22,7 +22,7 @@ Eine kleine Python-Anwendung, die unstrukturierte Stellenanzeigen mithilfe von K
 
 
 
-\### Excel-Historie und Bewerbungs-Tracking
+### Excel-Historie und Bewerbungs-Tracking
 
 
 
@@ -30,7 +30,7 @@ Eine kleine Python-Anwendung, die unstrukturierte Stellenanzeigen mithilfe von K
 
 
 
-\### Excel-Historie – Übersicht
+### Excel-Historie – Übersicht
 
 
 
@@ -38,7 +38,7 @@ Eine kleine Python-Anwendung, die unstrukturierte Stellenanzeigen mithilfe von K
 
 
 
-\### Excel-Historie – Job-Details
+### Excel-Historie – Job-Details
 
 
 
@@ -50,7 +50,7 @@ Eine kleine Python-Anwendung, die unstrukturierte Stellenanzeigen mithilfe von K
 
 
 
-\## Problem
+## Problem
 
 
 
@@ -78,7 +78,7 @@ Bei mehreren Stellenanzeigen wird die manuelle Analyse schnell unübersichtlich.
 
 
 
-\## Lösung
+## Lösung
 
 
 
@@ -136,11 +136,11 @@ Die Ergebnisse werden anschließend:
 
 
 
-\## Funktionen
+## Funktionen
 
 
 
-\### KI-basierte Stellenanalyse
+### KI-basierte Stellenanalyse
 
 
 
@@ -174,7 +174,7 @@ Die Anwendung extrahiert unter anderem:
 
 
 
-\### Kurzüberblick
+### Kurzüberblick
 
 
 
@@ -202,7 +202,7 @@ Die vollständige Analyse kann anschließend über einen aufklappbaren Bereich a
 
 
 
-\### Strukturierte JSON-Ausgabe
+### Strukturierte JSON-Ausgabe
 
 
 
@@ -214,7 +214,7 @@ Dadurch können die Ergebnisse später auch von anderen Anwendungen oder Automat
 
 
 
-\### Excel-Historie
+### Excel-Historie
 
 
 
@@ -234,7 +234,7 @@ Die Datei enthält zwei Bereiche:
 
 
 
-\#### Übersicht
+#### Übersicht
 
 
 
@@ -274,7 +274,7 @@ Enthalten sind unter anderem:
 
 
 
-\#### Job-Details
+#### Job-Details
 
 
 
@@ -302,7 +302,7 @@ Ein Rücklink führt wieder zur entsprechenden Stelle in der Übersicht.
 
 
 
-\### Bewerbungs-Tracking
+### Bewerbungs-Tracking
 
 
 
@@ -350,7 +350,7 @@ Damit dient die Excel-Datei nicht nur als Export, sondern als einfache Bewerbung
 
 
 
-\## Technischer Ablauf
+## Technischer Ablauf
 
 
 
@@ -396,7 +396,7 @@ Python Dictionary
 
 
 
-\## Projektstruktur
+## Projektstruktur
 
 
 
@@ -430,7 +430,7 @@ ai-job-analyzer/
 
 
 
-\### `app.py`
+### `app.py`
 
 
 
@@ -438,7 +438,7 @@ Enthält die Streamlit-Benutzeroberfläche und verbindet die einzelnen Komponent
 
 
 
-\### `analyzer.py`
+### `analyzer.py`
 
 
 
@@ -456,7 +456,7 @@ Enthält die KI-Logik:
 
 
 
-\### `excel\_manager.py`
+### `excel\_manager.py`
 
 
 
@@ -482,7 +482,7 @@ Verantwortlich für:
 
 
 
-\## Tech Stack
+## Tech Stack
 
 
 
@@ -502,7 +502,7 @@ Verantwortlich für:
 
 
 
-\## Installation
+## Installation
 
 
 
@@ -556,7 +556,7 @@ pip install -r requirements.txt
 
 
 
-\## API-Key konfigurieren
+## API-Key konfigurieren
 
 
 
@@ -600,7 +600,7 @@ Die `.env`-Datei wird über `.gitignore` nicht in Git gespeichert.
 
 
 
-\## Anwendung starten
+## Anwendung starten
 
 
 
@@ -616,7 +616,7 @@ Anschließend öffnet sich die Anwendung lokal im Browser.
 
 
 
-\## Verwendung
+## Verwendung
 
 
 
@@ -638,7 +638,7 @@ Anschließend öffnet sich die Anwendung lokal im Browser.
 
 
 
-\## Datenschutz und lokale Dateien
+## Datenschutz und lokale Dateien
 
 
 
@@ -664,7 +664,7 @@ Dadurch bleiben insbesondere der API-Key und die persönliche Bewerbungs-Histori
 
 
 
-\## Grenzen des aktuellen MVP
+## Grenzen des aktuellen MVP
 
 
 
@@ -688,7 +688,7 @@ Aktuelle Einschränkungen:
 
 
 
-\## Mögliche Weiterentwicklung
+## Mögliche Weiterentwicklung
 
 
 
@@ -744,7 +744,7 @@ Airtable / Reporting / weitere Prozesse
 
 
 
-\## Motivation
+## Motivation
 
 
 
@@ -777,6 +777,7 @@ KI einsetzen
 Ergebnisse weiterverwenden
 
 ```
+
 
 
 
