@@ -1,0 +1,13 @@
+Example GmbH sucht einen Werkstudenten IT-Security in Essen.
+
+Aufgaben:
+- Unterstützung bei der Analyse von Sicherheitsmeldungen
+- Pflege technischer Dokumentationen
+
+Anforderungen:
+- Studium der Informatik oder IT-Sicherheit
+- Gute Kenntnisse in Linux und Netzwerken
+- Python-Kenntnisse sind von Vorteil
+- Gute Deutschkenntnisse
+
+Die Tätigkeit umfasst 16 bis 20 Stunden pro Woche und ist teilweise im Homeoffice möglich.

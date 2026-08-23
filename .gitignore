@@ -1,0 +1,4 @@
+.venv/
+.env
+__pycache__/
+job_analysis_history.xlsx~$*.xlsx
